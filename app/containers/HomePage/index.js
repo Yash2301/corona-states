@@ -6,13 +6,11 @@
  */
 
 import React from 'react';
-import { FormattedMessage } from 'react-intl';
-import messages from './messages';
-
+import NestedList from './../../components/NestedList';
 export default function HomePage() {
   return (
     <h1>
-      <FormattedMessage {...messages.header} />
+      <NestedList />
     </h1>
   );
 }
